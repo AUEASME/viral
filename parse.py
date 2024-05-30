@@ -108,4 +108,4 @@ if __name__ == "__main__":
     # get_prototype(proteins)
     # determine_mutability(proteins)
     # add_locations(proteins)
-    add_alabamas(proteins)
+    # add_alabamas(proteins)
