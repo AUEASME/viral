@@ -1,17 +1,11 @@
-from fitness import calculate_fitness
-from parse import parse, parse_proteins
-from protein import PhylogeneticTree
+from parse import parse_proteins
 
-SEQUENCES = "data/json/sequences.json"
-MUTABILITY = "data/json/mutability.json"
+PROTEINS = parse_proteins("data/json/sequences.json")
 
 
 def main():
-    proteins = parse_proteins(SEQUENCES)
-    mutability = parse(MUTABILITY)
-
     initial_population = []
-    for protein in proteins:
+    for protein in PROTEINS:
         if protein.location == "Alabama":
             initial_population.append(protein)
 
@@ -20,6 +14,13 @@ def main():
             if other_protein.sequence == protein.sequence:
                 # Remove other_protein from the list.
                 initial_population.remove(other_protein)
+
+    for _ in range(100000):
+        for protein in initial_population:
+            protein.mutate()
+
+    for protein in initial_population:
+        protein.save_to_json(f"data/out/{protein.name}.json")
 
 
 if __name__ == "__main__":

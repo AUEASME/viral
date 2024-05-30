@@ -16,7 +16,6 @@ def parse_proteins(input_file):
         new_protein.location = protein["location"]
         proteins.append(new_protein)
 
-
     return proteins
 
 
@@ -110,4 +109,3 @@ if __name__ == "__main__":
     # determine_mutability(proteins)
     # add_locations(proteins)
     add_alabamas(proteins)
-
