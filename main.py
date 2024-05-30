@@ -1,5 +1,6 @@
 from fitness import calculate_fitness
 from parse import parse, parse_proteins
+from protein import PhylogeneticTree
 
 SEQUENCES = "data/json/sequences.json"
 MUTABILITY = "data/json/mutability.json"
@@ -19,9 +20,6 @@ def main():
             if other_protein.sequence == protein.sequence:
                 # Remove other_protein from the list.
                 initial_population.remove(other_protein)
-
-    for protein in initial_population:
-        print(f"{protein.name}: {calculate_fitness(protein, mutability)}")
 
 
 if __name__ == "__main__":
