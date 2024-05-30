@@ -48,7 +48,7 @@ class Protein:
         duplicate = Protein(str(uuid4()), random_node.sequence)
         duplicate.mutate_sequence()
         if (duplicate.fitness > random_node.fitness) and (duplicate.sequence not in [descendant.sequence for descendant in random_node.descendants]):
-            self.descendants.append(duplicate)
+            random_node.descendants.append(duplicate)
             print("New descendant added.")
 
     def dump_to_json(self):
