@@ -1,36 +1,32 @@
 import json
+from protein import Protein
 
 
-class Protein:
-    def __init__(self, name, sequence):
-        self.name = name
-        self.sequence = sequence
+def parse_proteins(input_file):
+    data = None
 
-    def __str__(self):
-        return f"{self.name}: {self.sequence}"
+    # Parse JSON file.
+    with open(input_file, "r") as file:
+        data = json.load(file)
 
-    def __len__(self):
-        return len(self.sequence)
+    # Create Protein objects.
+    proteins = []
+    for protein in data:
+        new_protein = Protein(protein["name"], protein["sequence"])
+        new_protein.location = protein["location"]
+        proteins.append(new_protein)
+
+
+    return proteins
 
 
 def parse(input_file):
-    sequences = []
-    with open(input_file) as file:
-        sequences = file.readlines()
+    data = None
 
-    proteins = []
-    for i in range(int(len(sequences) / 2)):
-        # print(sequences[2 * i], sequences[2 * i + 1])
-        protein = Protein(
-            sequences[2 * i][1:].replace("\n", ""), sequences[2 * i + 1].strip())
-        proteins.append(protein)
+    with open(input_file, "r") as file:
+        data = json.load(file)
 
-    # Dump to JSON.
-    filename = input_file.split('.')[0]
-    with open(f'{filename}.json', 'w+') as json_file:
-        json.dump(proteins, json_file, default=lambda x: x.__dict__, indent=4)
-
-    return proteins
+    return data
 
 
 def get_prototype(proteins):
@@ -52,7 +48,7 @@ def get_prototype(proteins):
         most_common_amino_acid = max(amino_acids, key=amino_acids.get)
         most_common_amino_acids.append(most_common_amino_acid)
 
-    with open("prototype.txt", "w+") as file:
+    with open("data/prototype.txt", "w+") as file:
         file.write("".join(most_common_amino_acids))
 
 
@@ -61,24 +57,57 @@ def determine_mutability(proteins):
     max_length = max([len(protein) for protein in proteins])
     proteins = [protein for protein in proteins if len(protein) == max_length]
 
-    # For each index, we want to count how many unique amino acids have been seen.
+    # For each index, we want to count how many unique amino acids have been seen, and how many times they've been seen.
     mutability = []
     for i in range(len(proteins[0].sequence)):
-        amino_acids = set()
+        amino_acids = []
         for protein in proteins:
-            try:
-                amino_acid = protein.sequence[i]
-                amino_acids.add(amino_acid)
-            except IndexError:
-                pass
+            amino_acid = protein.sequence[i]
+            # Check if an object for this amino acid already exists.
+            amino_acid_obj = next(
+                (x for x in amino_acids if x["amino_acid"] == amino_acid), None)
+            if amino_acid_obj:
+                amino_acid_obj["count"] += 1
+            else:
+                amino_acids.append({"amino_acid": amino_acid, "count": 1})
 
-        mutability.append(list(amino_acids))
+        # Sort the amino acids by count.
+        amino_acids.sort(key=lambda x: x["count"], reverse=True)
+        mutability.append(amino_acids)
 
-    with open("mutability.json", "w+") as file:
+    with open("data/json/mutability.json", "w+") as file:
         json.dump(mutability, file, indent=4)
 
 
+def add_locations(proteins):
+    # Load the location data.
+    with open("data/json/locations.json", "r") as file:
+        locations = json.load(file)
+
+        for location in locations:
+            for protein in proteins:
+                if protein.name in location["accessions"]:
+                    protein.location = location["location"]
+
+    with open("data/json/sequences.json", "w+") as file:
+        json.dump([{"name": protein.name, "sequence": protein.sequence,
+                  "location": protein.location} for protein in proteins], file, indent=2)
+
+
+def add_alabamas(proteins):
+    for protein in proteins:
+        if protein.location == None:
+            protein.location = "Alabama"
+
+    with open("data/json/sequences.json", "w+") as file:
+        json.dump([{"name": protein.name, "sequence": protein.sequence,
+                  "location": protein.location} for protein in proteins], file, indent=2)
+
+
 if __name__ == "__main__":
-    proteins = parse("sequences.txt")
-    get_prototype(proteins)
-    determine_mutability(proteins)
+    proteins = parse_proteins("data/json/sequences.json")
+    # get_prototype(proteins)
+    # determine_mutability(proteins)
+    # add_locations(proteins)
+    add_alabamas(proteins)
+

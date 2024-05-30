@@ -1,260 +1,1922 @@
 [
-  ["M"],
-  ["S"],
-  ["M", "K"],
-  ["D", "V"],
-  ["K"],
-  ["L"],
-  ["T", "S", "I", "F"],
-  ["M", "K"],
-  ["E"],
-  ["I", "S", "N"],
-  ["I"],
-  ["V", "I"],
-  ["A"],
-  ["S", "L"],
-  ["L"],
-  ["T", "K"],
-  ["Q"],
-  ["S", "G"],
-  ["I", "K"],
-  ["D", "V"],
-  ["L", "F"],
-  ["E"],
-  ["F", "Y"],
-  ["V", "G", "E"],
-  ["E"],
-  ["D", "N"],
-  ["Q"],
-  ["N"],
-  ["L"],
-  ["V"],
-  ["A"],
-  ["F"],
-  ["N"],
-  ["F"],
-  ["K"],
-  ["T", "I"],
-  ["F"],
-  ["C"],
-  ["L"],
-  ["D", "G", "E"],
-  ["T", "N"],
-  ["I", "L"],
-  ["D"],
-  ["Q"],
-  ["I"],
-  ["R", "K"],
-  ["K"],
-  ["M"],
-  ["S", "N"],
-  ["V", "I", "L"],
-  ["V", "I"],
-  ["S"],
-  ["C"],
-  ["M", "L"],
-  ["T"],
-  ["F"],
-  ["L"],
-  ["K"],
-  ["N"],
-  ["R"],
-  ["Q"],
-  ["S"],
-  ["I"],
-  ["M"],
-  ["K"],
-  ["V"],
-  ["I"],
-  ["K"],
-  ["Q"],
-  ["S", "N"],
-  ["D"],
-  ["F"],
-  ["T"],
-  ["F"],
-  ["G"],
-  ["K"],
-  ["I"],
-  ["T"],
-  ["I"],
-  ["K"],
-  ["K"],
-  ["T"],
-  ["S"],
-  ["D"],
-  ["R"],
-  ["T", "V", "I"],
-  ["G"],
-  ["A"],
-  ["A", "T"],
-  ["D"],
-  ["V", "M", "T"],
-  ["T"],
-  ["L", "F"],
-  ["R"],
-  ["R"],
-  ["F", "L"],
-  ["D"],
-  ["S"],
-  ["L"],
-  ["V", "I"],
-  ["R"],
-  ["V"],
-  ["R", "K"],
-  ["L"],
-  ["V"],
-  ["E"],
-  ["G", "E"],
-  ["T"],
-  ["G"],
-  ["D", "N"],
-  ["S"],
-  ["Q", "E"],
-  ["N"],
-  ["L"],
-  ["N"],
-  ["T"],
-  ["I"],
-  ["K"],
-  ["S"],
-  ["K"],
-  ["I"],
-  ["A"],
-  ["S"],
-  ["H"],
-  ["P"],
-  ["L"],
-  ["V", "I"],
-  ["Q"],
-  ["A"],
-  ["Y"],
-  ["G"],
-  ["L"],
-  ["P", "H"],
-  ["L"],
-  ["D", "V"],
-  ["D"],
-  ["A"],
-  ["R", "K"],
-  ["S"],
-  ["V"],
-  ["R"],
-  ["L"],
-  ["A", "V"],
-  ["I"],
-  ["M", "L"],
-  ["L"],
-  ["G"],
-  ["G"],
-  ["G", "S"],
-  ["L"],
-  ["P"],
-  ["L"],
-  ["I"],
-  ["A"],
-  ["S"],
-  ["V"],
-  ["D", "V"],
-  ["S"],
-  ["F"],
-  ["E"],
-  ["M"],
-  ["T", "I"],
-  ["S"],
-  ["A", "V"],
-  ["V"],
-  ["L"],
-  ["A", "V", "D"],
-  ["I"],
-  ["H", "Y"],
-  ["Q"],
-  ["D"],
-  ["A"],
-  ["K"],
-  ["C", "Y"],
-  ["R", "K"],
-  ["D"],
-  ["L"],
-  ["G"],
-  ["T", "I"],
-  ["D", "G"],
-  ["P"],
-  ["K"],
-  ["E", "K"],
-  ["Y"],
-  ["D", "G"],
-  ["T"],
-  ["M", "R"],
-  ["E"],
-  ["A"],
-  ["L"],
-  ["G", "R"],
-  ["K"],
-  ["V"],
-  ["C"],
-  ["T"],
-  ["V"],
-  ["L"],
-  ["R", "K"],
-  ["S"],
-  ["K"],
-  ["A"],
-  ["F"],
-  ["E"],
-  ["M"],
-  ["A", "T", "N"],
-  ["E"],
-  ["D"],
-  ["Q", "L"],
-  ["V"],
-  ["K"],
-  ["N", "K"],
-  ["G"],
-  ["R", "K"],
-  ["E"],
-  ["H", "Y"],
-  ["A"],
-  ["A"],
-  ["I"],
-  ["L"],
-  ["G", "S"],
-  ["S"],
-  ["S", "C"],
-  ["N"],
-  ["P"],
-  ["D", "N"],
-  ["A"],
-  ["E", "K"],
-  ["G"],
-  ["S"],
-  ["V", "I"],
-  ["A"],
-  ["M"],
-  ["E"],
-  ["H"],
-  ["Y"],
-  ["G", "S", "R"],
-  ["D", "E"],
-  ["T"],
-  ["L"],
-  ["N"],
-  ["Q", "K"],
-  ["F"],
-  ["Y"],
-  ["D", "E", "K"],
-  ["M"],
-  ["F"],
-  ["G"],
-  ["V"],
-  ["K"],
-  ["K"],
-  ["Q", "L"],
-  ["A"],
-  ["N", "R", "H", "K"],
-  ["P", "H", "L"],
-  ["A", "T", "P"],
-  ["D", "G", "E"],
-  ["L"],
-  ["A", "V"]
+    [
+        {
+            "amino_acid": "M",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "S",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 357
+        },
+        {
+            "amino_acid": "M",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "V",
+            "count": 357
+        },
+        {
+            "amino_acid": "D",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "T",
+            "count": 350
+        },
+        {
+            "amino_acid": "I",
+            "count": 6
+        },
+        {
+            "amino_acid": "S",
+            "count": 1
+        },
+        {
+            "amino_acid": "F",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 357
+        },
+        {
+            "amino_acid": "M",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "E",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "S",
+            "count": 351
+        },
+        {
+            "amino_acid": "N",
+            "count": 6
+        },
+        {
+            "amino_acid": "I",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "I",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "V",
+            "count": 357
+        },
+        {
+            "amino_acid": "I",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "A",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 357
+        },
+        {
+            "amino_acid": "S",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "T",
+            "count": 357
+        },
+        {
+            "amino_acid": "K",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "Q",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "G",
+            "count": 357
+        },
+        {
+            "amino_acid": "S",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 357
+        },
+        {
+            "amino_acid": "I",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "D",
+            "count": 357
+        },
+        {
+            "amino_acid": "V",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 356
+        },
+        {
+            "amino_acid": "F",
+            "count": 2
+        }
+    ],
+    [
+        {
+            "amino_acid": "E",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "F",
+            "count": 357
+        },
+        {
+            "amino_acid": "Y",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "E",
+            "count": 356
+        },
+        {
+            "amino_acid": "G",
+            "count": 1
+        },
+        {
+            "amino_acid": "V",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "E",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "D",
+            "count": 357
+        },
+        {
+            "amino_acid": "N",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "Q",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "N",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "V",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "A",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "F",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "N",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "F",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "T",
+            "count": 357
+        },
+        {
+            "amino_acid": "I",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "F",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "C",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "E",
+            "count": 272
+        },
+        {
+            "amino_acid": "G",
+            "count": 84
+        },
+        {
+            "amino_acid": "D",
+            "count": 2
+        }
+    ],
+    [
+        {
+            "amino_acid": "N",
+            "count": 357
+        },
+        {
+            "amino_acid": "T",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 357
+        },
+        {
+            "amino_acid": "I",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "D",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "Q",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "I",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 357
+        },
+        {
+            "amino_acid": "R",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "M",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "S",
+            "count": 356
+        },
+        {
+            "amino_acid": "N",
+            "count": 2
+        }
+    ],
+    [
+        {
+            "amino_acid": "I",
+            "count": 356
+        },
+        {
+            "amino_acid": "L",
+            "count": 1
+        },
+        {
+            "amino_acid": "V",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "I",
+            "count": 355
+        },
+        {
+            "amino_acid": "V",
+            "count": 3
+        }
+    ],
+    [
+        {
+            "amino_acid": "S",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "C",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 357
+        },
+        {
+            "amino_acid": "M",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "T",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "F",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "N",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "R",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "Q",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "S",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "I",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "M",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "V",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "I",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "Q",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "S",
+            "count": 357
+        },
+        {
+            "amino_acid": "N",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "D",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "F",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "T",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "F",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "G",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "I",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "T",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "I",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "T",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "S",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "D",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "R",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "I",
+            "count": 355
+        },
+        {
+            "amino_acid": "T",
+            "count": 2
+        },
+        {
+            "amino_acid": "V",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "G",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "A",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "T",
+            "count": 356
+        },
+        {
+            "amino_acid": "A",
+            "count": 2
+        }
+    ],
+    [
+        {
+            "amino_acid": "D",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "M",
+            "count": 356
+        },
+        {
+            "amino_acid": "V",
+            "count": 1
+        },
+        {
+            "amino_acid": "T",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "T",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "F",
+            "count": 356
+        },
+        {
+            "amino_acid": "L",
+            "count": 2
+        }
+    ],
+    [
+        {
+            "amino_acid": "R",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "R",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 357
+        },
+        {
+            "amino_acid": "F",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "D",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "S",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "I",
+            "count": 357
+        },
+        {
+            "amino_acid": "V",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "R",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "V",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "R",
+            "count": 356
+        },
+        {
+            "amino_acid": "K",
+            "count": 2
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "V",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "E",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "E",
+            "count": 357
+        },
+        {
+            "amino_acid": "G",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "T",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "G",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "N",
+            "count": 357
+        },
+        {
+            "amino_acid": "D",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "S",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "E",
+            "count": 357
+        },
+        {
+            "amino_acid": "Q",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "N",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "N",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "T",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "I",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "S",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "I",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "A",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "S",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "H",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "P",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "I",
+            "count": 354
+        },
+        {
+            "amino_acid": "V",
+            "count": 4
+        }
+    ],
+    [
+        {
+            "amino_acid": "Q",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "A",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "Y",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "G",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "P",
+            "count": 357
+        },
+        {
+            "amino_acid": "H",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "D",
+            "count": 357
+        },
+        {
+            "amino_acid": "V",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "D",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "A",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 357
+        },
+        {
+            "amino_acid": "R",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "S",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "V",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "R",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "A",
+            "count": 357
+        },
+        {
+            "amino_acid": "V",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "I",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "M",
+            "count": 356
+        },
+        {
+            "amino_acid": "L",
+            "count": 2
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "G",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "G",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "S",
+            "count": 357
+        },
+        {
+            "amino_acid": "G",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "P",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "I",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "A",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "S",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "V",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "D",
+            "count": 357
+        },
+        {
+            "amino_acid": "V",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "S",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "F",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "E",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "M",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "I",
+            "count": 357
+        },
+        {
+            "amino_acid": "T",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "S",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "V",
+            "count": 357
+        },
+        {
+            "amino_acid": "A",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "V",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "A",
+            "count": 356
+        },
+        {
+            "amino_acid": "D",
+            "count": 1
+        },
+        {
+            "amino_acid": "V",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "I",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "Y",
+            "count": 357
+        },
+        {
+            "amino_acid": "H",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "Q",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "D",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "A",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "Y",
+            "count": 357
+        },
+        {
+            "amino_acid": "C",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 357
+        },
+        {
+            "amino_acid": "R",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "D",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "G",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "I",
+            "count": 357
+        },
+        {
+            "amino_acid": "T",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "D",
+            "count": 357
+        },
+        {
+            "amino_acid": "G",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "P",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 357
+        },
+        {
+            "amino_acid": "E",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "Y",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "D",
+            "count": 357
+        },
+        {
+            "amino_acid": "G",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "T",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "R",
+            "count": 357
+        },
+        {
+            "amino_acid": "M",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "E",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "A",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "G",
+            "count": 357
+        },
+        {
+            "amino_acid": "R",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "V",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "C",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "T",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "V",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 356
+        },
+        {
+            "amino_acid": "R",
+            "count": 2
+        }
+    ],
+    [
+        {
+            "amino_acid": "S",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "A",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "F",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "E",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "M",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "T",
+            "count": 352
+        },
+        {
+            "amino_acid": "N",
+            "count": 5
+        },
+        {
+            "amino_acid": "A",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "E",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "D",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "Q",
+            "count": 357
+        },
+        {
+            "amino_acid": "L",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "V",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 357
+        },
+        {
+            "amino_acid": "N",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "G",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 354
+        },
+        {
+            "amino_acid": "R",
+            "count": 4
+        }
+    ],
+    [
+        {
+            "amino_acid": "E",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "Y",
+            "count": 357
+        },
+        {
+            "amino_acid": "H",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "A",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "A",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "I",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "S",
+            "count": 355
+        },
+        {
+            "amino_acid": "G",
+            "count": 3
+        }
+    ],
+    [
+        {
+            "amino_acid": "S",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "C",
+            "count": 280
+        },
+        {
+            "amino_acid": "S",
+            "count": 78
+        }
+    ],
+    [
+        {
+            "amino_acid": "N",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "P",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "N",
+            "count": 356
+        },
+        {
+            "amino_acid": "D",
+            "count": 2
+        }
+    ],
+    [
+        {
+            "amino_acid": "A",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 357
+        },
+        {
+            "amino_acid": "E",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "G",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "S",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "V",
+            "count": 353
+        },
+        {
+            "amino_acid": "I",
+            "count": 5
+        }
+    ],
+    [
+        {
+            "amino_acid": "A",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "M",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "E",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "H",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "Y",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "S",
+            "count": 356
+        },
+        {
+            "amino_acid": "R",
+            "count": 1
+        },
+        {
+            "amino_acid": "G",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "E",
+            "count": 356
+        },
+        {
+            "amino_acid": "D",
+            "count": 2
+        }
+    ],
+    [
+        {
+            "amino_acid": "T",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "N",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 357
+        },
+        {
+            "amino_acid": "Q",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "F",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "Y",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "E",
+            "count": 356
+        },
+        {
+            "amino_acid": "K",
+            "count": 1
+        },
+        {
+            "amino_acid": "D",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "M",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "F",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "G",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "V",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "Q",
+            "count": 357
+        },
+        {
+            "amino_acid": "L",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "A",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "K",
+            "count": 355
+        },
+        {
+            "amino_acid": "H",
+            "count": 1
+        },
+        {
+            "amino_acid": "N",
+            "count": 1
+        },
+        {
+            "amino_acid": "R",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 356
+        },
+        {
+            "amino_acid": "H",
+            "count": 1
+        },
+        {
+            "amino_acid": "P",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "T",
+            "count": 283
+        },
+        {
+            "amino_acid": "A",
+            "count": 74
+        },
+        {
+            "amino_acid": "P",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "E",
+            "count": 356
+        },
+        {
+            "amino_acid": "G",
+            "count": 1
+        },
+        {
+            "amino_acid": "D",
+            "count": 1
+        }
+    ],
+    [
+        {
+            "amino_acid": "L",
+            "count": 358
+        }
+    ],
+    [
+        {
+            "amino_acid": "A",
+            "count": 357
+        },
+        {
+            "amino_acid": "V",
+            "count": 1
+        }
+    ]
 ]
