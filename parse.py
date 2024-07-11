@@ -12,7 +12,7 @@ def parse_proteins(input_file):
     # Create Protein objects.
     proteins = []
     for protein in data:
-        new_protein = Protein(protein["name"], protein["sequence"])
+        new_protein = Protein(protein["name"], protein["dna"], protein["sequence"])
         new_protein.location = protein["location"]
         proteins.append(new_protein)
 
@@ -52,11 +52,12 @@ def get_prototype(proteins):
 
 
 def determine_mutability(proteins):
-    # Remove proteins that are shorter than the longest variant (we'll figure out how to handle them later).
-    max_length = max([len(protein) for protein in proteins])
-    proteins = [protein for protein in proteins if len(protein) == max_length]
+    # Determine mode length of proteins.
+    mode_length = max(set([len(protein) for protein in proteins]), key=[len(protein) for protein in proteins].count)
+    # Remove proteins that are not the mode length.
+    proteins = [protein for protein in proteins if len(protein) == mode_length]
 
-    # For each index, we want to count how many unique amino acids have been seen, and how many times they've been seen.
+    # For each index, we want to count how many unique base pairs/amino acids have been seen, and how many times they've been seen.
     mutability = []
     for i in range(len(proteins[0].sequence)):
         amino_acids = []

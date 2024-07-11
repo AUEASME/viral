@@ -9,8 +9,9 @@ MUTABILITY = json.load(open("data/json/mutability.json"))
 
 
 class Protein:
-    def __init__(self, name, sequence):
+    def __init__(self, name, dna, sequence):
         self.name = name
+        self.dna = dna
         self.sequence = sequence
         self.location = None
         self.fitness = calculate_fitness(self, MUTABILITY)
