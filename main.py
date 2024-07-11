@@ -11,7 +11,7 @@ def main():
 
     for protein in initial_population:
         for other_protein in initial_population:
-            if other_protein.sequence == protein.sequence:
+            if other_protein.dna == protein.dna:
                 # Remove other_protein from the list.
                 initial_population.remove(other_protein)
 
