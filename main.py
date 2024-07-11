@@ -20,7 +20,7 @@ def main():
     for protein in initial_population:
         protein.fitness = calculate_fitness_from_consensus(protein, MUTABILITY)
 
-    for _ in range(10000):
+    for _ in range(100):
         for protein in initial_population:
             new_individual = protein.mutate(MUTABILITY)
             if new_individual:
