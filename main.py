@@ -1,4 +1,4 @@
-from parse import parse_proteins
+from lib.src.parse import parse_proteins
 
 PROTEINS = parse_proteins("data/json/sequences.json")
 
@@ -6,12 +6,12 @@ PROTEINS = parse_proteins("data/json/sequences.json")
 def main():
     initial_population = []
     for protein in PROTEINS:
-        if protein.location == "Alabama":
+        if protein.location_of_origin == "Alabama":
             initial_population.append(protein)
 
     for protein in initial_population:
         for other_protein in initial_population:
-            if other_protein.dna == protein.dna:
+            if other_protein.dna_sequence_coding == protein.dna_sequence_coding:
                 # Remove other_protein from the list.
                 initial_population.remove(other_protein)
 
