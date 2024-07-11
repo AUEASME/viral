@@ -1,6 +1,8 @@
-from lib.src.parse import parse_proteins
+from easme.parse import parse_proteins, determine_mutability
+from easme.fitness import calculate_fitness_from_consensus
 
-PROTEINS = parse_proteins("data/json/sequences.json")
+PROTEINS = parse_proteins("data/json/sequences.json", 774)
+MUTABILITY = determine_mutability(PROTEINS)
 
 
 def main():
@@ -15,9 +17,14 @@ def main():
                 # Remove other_protein from the list.
                 initial_population.remove(other_protein)
 
+    for protein in initial_population:
+        protein.fitness = calculate_fitness_from_consensus(protein, MUTABILITY)
+
     for _ in range(10000):
         for protein in initial_population:
-            protein.mutate()
+            new_individual = protein.mutate(MUTABILITY)
+            if new_individual:
+                print("New individual added!")
 
     for protein in initial_population:
         protein.save_to_json(f"data/out/{protein.name}.json")

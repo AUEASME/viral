@@ -1,1 +1,0 @@
-Hey! Add the EASME Core library to this folder!
