@@ -124,9 +124,41 @@ def add_alabamas(proteins):
         )
 
 
+def fix_dna():
+    # Load existing protein data.
+    proteins = json.load(open("data/json/sequences.json", "r"))
+
+    # Add a dna field to each protein.
+    for protein in proteins:
+        protein["dna"] = ""
+
+    # Load the DNA data.
+    dna = None
+    with open("data/json/dna.txt", "r") as file:
+        dna = file.read()
+
+    # Split the DNA data.
+    dna = dna.split()
+    print(dna)
+
+    target = dna[0].replace(">", "")
+    for i in range(len(dna)):
+        if dna[i].startswith(">"):
+            target = dna[i].replace(">", "")
+        else:
+            # Find protein with same name as target.
+            for protein in proteins:
+                if protein["name"] == target:
+                    protein["dna"] += dna[i]
+
+    with open("data/json/sequences.json", "w+") as file:
+        json.dump(proteins, file, indent=2)
+
+
 if __name__ == "__main__":
-    proteins = parse_proteins("data/json/sequences.json")
+    # proteins = parse_proteins("data/json/sequences.json")
     # get_prototype(proteins)
     # determine_mutability(proteins)
     # add_locations(proteins)
     # add_alabamas(proteins)
+    fix_dna()
