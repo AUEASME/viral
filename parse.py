@@ -53,31 +53,34 @@ def get_prototype(proteins):
 
 def determine_mutability(proteins):
     # Determine mode length of proteins.
-    mode_length = max(set([len(protein) for protein in proteins]), key=[len(protein) for protein in proteins].count)
+    mode_length = max(
+        set([len(protein) for protein in proteins]),
+        key=[len(protein) for protein in proteins].count,
+    )
     # Remove proteins that are not the mode length.
     proteins = [protein for protein in proteins if len(protein) == mode_length]
 
     # For each index, we want to count how many unique base pairs/amino acids have been seen, and how many times they've been seen.
     mutability = []
-    for i in range(len(proteins[0].sequence)):
+    for i in range(len(proteins[0].dna)):
         amino_acids = []
         for protein in proteins:
-            amino_acid = protein.sequence[i]
+            base_pair = protein.dna[i]
             # Check if an object for this amino acid already exists.
             amino_acid_obj = next(
-                (x for x in amino_acids if x["amino_acid"] == amino_acid), None
+                (x for x in amino_acids if x["base_pair"] == base_pair), None
             )
             if amino_acid_obj:
                 amino_acid_obj["count"] += 1
             else:
-                amino_acids.append({"amino_acid": amino_acid, "count": 1})
+                amino_acids.append({"base_pair": base_pair, "count": 1})
 
         # Sort the amino acids by count.
         amino_acids.sort(key=lambda x: x["count"], reverse=True)
         mutability.append(amino_acids)
 
     with open("data/json/mutability.json", "w+") as file:
-        json.dump(mutability, file, indent=4)
+        json.dump(mutability, file, indent=2)
 
 
 def add_locations(proteins):
@@ -157,9 +160,10 @@ def fix_dna():
 
 
 if __name__ == "__main__":
-    # proteins = parse_proteins("data/json/sequences.json")
-    # get_prototype(proteins)
-    # determine_mutability(proteins)
+    print("Parsing data...")
+    proteins = parse_proteins("data/json/sequences.json")
+
+    print("Determining mutability...")
+    determine_mutability(proteins)
     # add_locations(proteins)
     # add_alabamas(proteins)
-    fix_dna()

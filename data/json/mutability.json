@@ -1,1922 +1,6338 @@
 [
-    [
-        {
-            "amino_acid": "M",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "S",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 357
-        },
-        {
-            "amino_acid": "M",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "V",
-            "count": 357
-        },
-        {
-            "amino_acid": "D",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "T",
-            "count": 350
-        },
-        {
-            "amino_acid": "I",
-            "count": 6
-        },
-        {
-            "amino_acid": "S",
-            "count": 1
-        },
-        {
-            "amino_acid": "F",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 357
-        },
-        {
-            "amino_acid": "M",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "E",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "S",
-            "count": 351
-        },
-        {
-            "amino_acid": "N",
-            "count": 6
-        },
-        {
-            "amino_acid": "I",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "I",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "V",
-            "count": 357
-        },
-        {
-            "amino_acid": "I",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "A",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 357
-        },
-        {
-            "amino_acid": "S",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "T",
-            "count": 357
-        },
-        {
-            "amino_acid": "K",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "Q",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "G",
-            "count": 357
-        },
-        {
-            "amino_acid": "S",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 357
-        },
-        {
-            "amino_acid": "I",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "D",
-            "count": 357
-        },
-        {
-            "amino_acid": "V",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 356
-        },
-        {
-            "amino_acid": "F",
-            "count": 2
-        }
-    ],
-    [
-        {
-            "amino_acid": "E",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "F",
-            "count": 357
-        },
-        {
-            "amino_acid": "Y",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "E",
-            "count": 356
-        },
-        {
-            "amino_acid": "G",
-            "count": 1
-        },
-        {
-            "amino_acid": "V",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "E",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "D",
-            "count": 357
-        },
-        {
-            "amino_acid": "N",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "Q",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "N",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "V",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "A",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "F",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "N",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "F",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "T",
-            "count": 357
-        },
-        {
-            "amino_acid": "I",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "F",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "C",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "E",
-            "count": 272
-        },
-        {
-            "amino_acid": "G",
-            "count": 84
-        },
-        {
-            "amino_acid": "D",
-            "count": 2
-        }
-    ],
-    [
-        {
-            "amino_acid": "N",
-            "count": 357
-        },
-        {
-            "amino_acid": "T",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 357
-        },
-        {
-            "amino_acid": "I",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "D",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "Q",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "I",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 357
-        },
-        {
-            "amino_acid": "R",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "M",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "S",
-            "count": 356
-        },
-        {
-            "amino_acid": "N",
-            "count": 2
-        }
-    ],
-    [
-        {
-            "amino_acid": "I",
-            "count": 356
-        },
-        {
-            "amino_acid": "L",
-            "count": 1
-        },
-        {
-            "amino_acid": "V",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "I",
-            "count": 355
-        },
-        {
-            "amino_acid": "V",
-            "count": 3
-        }
-    ],
-    [
-        {
-            "amino_acid": "S",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "C",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 357
-        },
-        {
-            "amino_acid": "M",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "T",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "F",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "N",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "R",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "Q",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "S",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "I",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "M",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "V",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "I",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "Q",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "S",
-            "count": 357
-        },
-        {
-            "amino_acid": "N",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "D",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "F",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "T",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "F",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "G",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "I",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "T",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "I",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "T",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "S",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "D",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "R",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "I",
-            "count": 355
-        },
-        {
-            "amino_acid": "T",
-            "count": 2
-        },
-        {
-            "amino_acid": "V",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "G",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "A",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "T",
-            "count": 356
-        },
-        {
-            "amino_acid": "A",
-            "count": 2
-        }
-    ],
-    [
-        {
-            "amino_acid": "D",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "M",
-            "count": 356
-        },
-        {
-            "amino_acid": "V",
-            "count": 1
-        },
-        {
-            "amino_acid": "T",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "T",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "F",
-            "count": 356
-        },
-        {
-            "amino_acid": "L",
-            "count": 2
-        }
-    ],
-    [
-        {
-            "amino_acid": "R",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "R",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 357
-        },
-        {
-            "amino_acid": "F",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "D",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "S",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "I",
-            "count": 357
-        },
-        {
-            "amino_acid": "V",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "R",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "V",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "R",
-            "count": 356
-        },
-        {
-            "amino_acid": "K",
-            "count": 2
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "V",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "E",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "E",
-            "count": 357
-        },
-        {
-            "amino_acid": "G",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "T",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "G",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "N",
-            "count": 357
-        },
-        {
-            "amino_acid": "D",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "S",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "E",
-            "count": 357
-        },
-        {
-            "amino_acid": "Q",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "N",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "N",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "T",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "I",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "S",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "I",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "A",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "S",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "H",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "P",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "I",
-            "count": 354
-        },
-        {
-            "amino_acid": "V",
-            "count": 4
-        }
-    ],
-    [
-        {
-            "amino_acid": "Q",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "A",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "Y",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "G",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "P",
-            "count": 357
-        },
-        {
-            "amino_acid": "H",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "D",
-            "count": 357
-        },
-        {
-            "amino_acid": "V",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "D",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "A",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 357
-        },
-        {
-            "amino_acid": "R",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "S",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "V",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "R",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "A",
-            "count": 357
-        },
-        {
-            "amino_acid": "V",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "I",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "M",
-            "count": 356
-        },
-        {
-            "amino_acid": "L",
-            "count": 2
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "G",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "G",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "S",
-            "count": 357
-        },
-        {
-            "amino_acid": "G",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "P",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "I",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "A",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "S",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "V",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "D",
-            "count": 357
-        },
-        {
-            "amino_acid": "V",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "S",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "F",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "E",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "M",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "I",
-            "count": 357
-        },
-        {
-            "amino_acid": "T",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "S",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "V",
-            "count": 357
-        },
-        {
-            "amino_acid": "A",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "V",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "A",
-            "count": 356
-        },
-        {
-            "amino_acid": "D",
-            "count": 1
-        },
-        {
-            "amino_acid": "V",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "I",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "Y",
-            "count": 357
-        },
-        {
-            "amino_acid": "H",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "Q",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "D",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "A",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "Y",
-            "count": 357
-        },
-        {
-            "amino_acid": "C",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 357
-        },
-        {
-            "amino_acid": "R",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "D",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "G",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "I",
-            "count": 357
-        },
-        {
-            "amino_acid": "T",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "D",
-            "count": 357
-        },
-        {
-            "amino_acid": "G",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "P",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 357
-        },
-        {
-            "amino_acid": "E",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "Y",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "D",
-            "count": 357
-        },
-        {
-            "amino_acid": "G",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "T",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "R",
-            "count": 357
-        },
-        {
-            "amino_acid": "M",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "E",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "A",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "G",
-            "count": 357
-        },
-        {
-            "amino_acid": "R",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "V",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "C",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "T",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "V",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 356
-        },
-        {
-            "amino_acid": "R",
-            "count": 2
-        }
-    ],
-    [
-        {
-            "amino_acid": "S",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "A",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "F",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "E",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "M",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "T",
-            "count": 352
-        },
-        {
-            "amino_acid": "N",
-            "count": 5
-        },
-        {
-            "amino_acid": "A",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "E",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "D",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "Q",
-            "count": 357
-        },
-        {
-            "amino_acid": "L",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "V",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 357
-        },
-        {
-            "amino_acid": "N",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "G",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 354
-        },
-        {
-            "amino_acid": "R",
-            "count": 4
-        }
-    ],
-    [
-        {
-            "amino_acid": "E",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "Y",
-            "count": 357
-        },
-        {
-            "amino_acid": "H",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "A",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "A",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "I",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "S",
-            "count": 355
-        },
-        {
-            "amino_acid": "G",
-            "count": 3
-        }
-    ],
-    [
-        {
-            "amino_acid": "S",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "C",
-            "count": 280
-        },
-        {
-            "amino_acid": "S",
-            "count": 78
-        }
-    ],
-    [
-        {
-            "amino_acid": "N",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "P",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "N",
-            "count": 356
-        },
-        {
-            "amino_acid": "D",
-            "count": 2
-        }
-    ],
-    [
-        {
-            "amino_acid": "A",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 357
-        },
-        {
-            "amino_acid": "E",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "G",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "S",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "V",
-            "count": 353
-        },
-        {
-            "amino_acid": "I",
-            "count": 5
-        }
-    ],
-    [
-        {
-            "amino_acid": "A",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "M",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "E",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "H",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "Y",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "S",
-            "count": 356
-        },
-        {
-            "amino_acid": "R",
-            "count": 1
-        },
-        {
-            "amino_acid": "G",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "E",
-            "count": 356
-        },
-        {
-            "amino_acid": "D",
-            "count": 2
-        }
-    ],
-    [
-        {
-            "amino_acid": "T",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "N",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 357
-        },
-        {
-            "amino_acid": "Q",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "F",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "Y",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "E",
-            "count": 356
-        },
-        {
-            "amino_acid": "K",
-            "count": 1
-        },
-        {
-            "amino_acid": "D",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "M",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "F",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "G",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "V",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "Q",
-            "count": 357
-        },
-        {
-            "amino_acid": "L",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "A",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "K",
-            "count": 355
-        },
-        {
-            "amino_acid": "H",
-            "count": 1
-        },
-        {
-            "amino_acid": "N",
-            "count": 1
-        },
-        {
-            "amino_acid": "R",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 356
-        },
-        {
-            "amino_acid": "H",
-            "count": 1
-        },
-        {
-            "amino_acid": "P",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "T",
-            "count": 283
-        },
-        {
-            "amino_acid": "A",
-            "count": 74
-        },
-        {
-            "amino_acid": "P",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "E",
-            "count": 356
-        },
-        {
-            "amino_acid": "G",
-            "count": 1
-        },
-        {
-            "amino_acid": "D",
-            "count": 1
-        }
-    ],
-    [
-        {
-            "amino_acid": "L",
-            "count": 358
-        }
-    ],
-    [
-        {
-            "amino_acid": "A",
-            "count": 357
-        },
-        {
-            "amino_acid": "V",
-            "count": 1
-        }
-    ]
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 348
+    },
+    {
+      "base_pair": "T",
+      "count": 8
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 354
+    },
+    {
+      "base_pair": "C",
+      "count": 3
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 351
+    },
+    {
+      "base_pair": "A",
+      "count": 5
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 355
+    },
+    {
+      "base_pair": "T",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 239
+    },
+    {
+      "base_pair": "T",
+      "count": 116
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 352
+    },
+    {
+      "base_pair": "C",
+      "count": 5
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 353
+    },
+    {
+      "base_pair": "C",
+      "count": 4
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 354
+    },
+    {
+      "base_pair": "G",
+      "count": 3
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 353
+    },
+    {
+      "base_pair": "T",
+      "count": 4
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 336
+    },
+    {
+      "base_pair": "A",
+      "count": 21
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 352
+    },
+    {
+      "base_pair": "C",
+      "count": 5
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 355
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 353
+    },
+    {
+      "base_pair": "A",
+      "count": 4
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 355
+    },
+    {
+      "base_pair": "G",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 354
+    },
+    {
+      "base_pair": "G",
+      "count": 3
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 355
+    },
+    {
+      "base_pair": "T",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 353
+    },
+    {
+      "base_pair": "T",
+      "count": 4
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 353
+    },
+    {
+      "base_pair": "A",
+      "count": 4
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 350
+    },
+    {
+      "base_pair": "A",
+      "count": 6
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 274
+    },
+    {
+      "base_pair": "G",
+      "count": 83
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 350
+    },
+    {
+      "base_pair": "G",
+      "count": 5
+    },
+    {
+      "base_pair": "T",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 355
+    },
+    {
+      "base_pair": "T",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 351
+    },
+    {
+      "base_pair": "C",
+      "count": 3
+    },
+    {
+      "base_pair": "A",
+      "count": 2
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 355
+    },
+    {
+      "base_pair": "A",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 353
+    },
+    {
+      "base_pair": "A",
+      "count": 3
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 353
+    },
+    {
+      "base_pair": "G",
+      "count": 4
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 339
+    },
+    {
+      "base_pair": "A",
+      "count": 18
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 355
+    },
+    {
+      "base_pair": "A",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 354
+    },
+    {
+      "base_pair": "G",
+      "count": 3
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 354
+    },
+    {
+      "base_pair": "C",
+      "count": 3
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 349
+    },
+    {
+      "base_pair": "T",
+      "count": 7
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 354
+    },
+    {
+      "base_pair": "C",
+      "count": 3
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 354
+    },
+    {
+      "base_pair": "T",
+      "count": 3
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 321
+    },
+    {
+      "base_pair": "T",
+      "count": 36
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 351
+    },
+    {
+      "base_pair": "A",
+      "count": 6
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 350
+    },
+    {
+      "base_pair": "C",
+      "count": 7
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 351
+    },
+    {
+      "base_pair": "C",
+      "count": 6
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 355
+    },
+    {
+      "base_pair": "A",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 354
+    },
+    {
+      "base_pair": "T",
+      "count": 3
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 354
+    },
+    {
+      "base_pair": "A",
+      "count": 3
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 351
+    },
+    {
+      "base_pair": "C",
+      "count": 5
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 277
+    },
+    {
+      "base_pair": "T",
+      "count": 79
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 351
+    },
+    {
+      "base_pair": "A",
+      "count": 6
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 353
+    },
+    {
+      "base_pair": "G",
+      "count": 4
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 354
+    },
+    {
+      "base_pair": "C",
+      "count": 3
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 353
+    },
+    {
+      "base_pair": "C",
+      "count": 4
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 353
+    },
+    {
+      "base_pair": "C",
+      "count": 4
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 352
+    },
+    {
+      "base_pair": "C",
+      "count": 4
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 355
+    },
+    {
+      "base_pair": "T",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 355
+    },
+    {
+      "base_pair": "G",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 352
+    },
+    {
+      "base_pair": "C",
+      "count": 5
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 354
+    },
+    {
+      "base_pair": "T",
+      "count": 3
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 355
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 352
+    },
+    {
+      "base_pair": "T",
+      "count": 4
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 355
+    },
+    {
+      "base_pair": "G",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 354
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 353
+    },
+    {
+      "base_pair": "T",
+      "count": 4
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 345
+    },
+    {
+      "base_pair": "T",
+      "count": 12
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 349
+    },
+    {
+      "base_pair": "G",
+      "count": 7
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 355
+    },
+    {
+      "base_pair": "T",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 325
+    },
+    {
+      "base_pair": "A",
+      "count": 32
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 263
+    },
+    {
+      "base_pair": "C",
+      "count": 94
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 355
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 355
+    },
+    {
+      "base_pair": "A",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 355
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 350
+    },
+    {
+      "base_pair": "C",
+      "count": 6
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 345
+    },
+    {
+      "base_pair": "A",
+      "count": 12
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 355
+    },
+    {
+      "base_pair": "G",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 351
+    },
+    {
+      "base_pair": "C",
+      "count": 6
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 351
+    },
+    {
+      "base_pair": "A",
+      "count": 4
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 352
+    },
+    {
+      "base_pair": "C",
+      "count": 5
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 355
+    },
+    {
+      "base_pair": "A",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 355
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 340
+    },
+    {
+      "base_pair": "T",
+      "count": 17
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 352
+    },
+    {
+      "base_pair": "A",
+      "count": 5
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 344
+    },
+    {
+      "base_pair": "T",
+      "count": 13
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 349
+    },
+    {
+      "base_pair": "C",
+      "count": 7
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 353
+    },
+    {
+      "base_pair": "C",
+      "count": 4
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 355
+    },
+    {
+      "base_pair": "A",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 353
+    },
+    {
+      "base_pair": "G",
+      "count": 4
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 354
+    },
+    {
+      "base_pair": "C",
+      "count": 3
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 354
+    },
+    {
+      "base_pair": "G",
+      "count": 3
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 348
+    },
+    {
+      "base_pair": "T",
+      "count": 8
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 351
+    },
+    {
+      "base_pair": "C",
+      "count": 6
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 352
+    },
+    {
+      "base_pair": "G",
+      "count": 4
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 352
+    },
+    {
+      "base_pair": "G",
+      "count": 5
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 286
+    },
+    {
+      "base_pair": "C",
+      "count": 70
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 354
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 339
+    },
+    {
+      "base_pair": "A",
+      "count": 18
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 350
+    },
+    {
+      "base_pair": "T",
+      "count": 6
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 354
+    },
+    {
+      "base_pair": "A",
+      "count": 2
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 354
+    },
+    {
+      "base_pair": "T",
+      "count": 2
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 354
+    },
+    {
+      "base_pair": "T",
+      "count": 3
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 312
+    },
+    {
+      "base_pair": "G",
+      "count": 45
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 354
+    },
+    {
+      "base_pair": "G",
+      "count": 2
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 215
+    },
+    {
+      "base_pair": "T",
+      "count": 142
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 353
+    },
+    {
+      "base_pair": "G",
+      "count": 4
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 352
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    },
+    {
+      "base_pair": "A",
+      "count": 2
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 352
+    },
+    {
+      "base_pair": "T",
+      "count": 3
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 354
+    },
+    {
+      "base_pair": "T",
+      "count": 3
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 335
+    },
+    {
+      "base_pair": "A",
+      "count": 22
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 355
+    },
+    {
+      "base_pair": "T",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 354
+    },
+    {
+      "base_pair": "C",
+      "count": 3
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 354
+    },
+    {
+      "base_pair": "T",
+      "count": 2
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 349
+    },
+    {
+      "base_pair": "C",
+      "count": 8
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 317
+    },
+    {
+      "base_pair": "A",
+      "count": 40
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 355
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 351
+    },
+    {
+      "base_pair": "C",
+      "count": 5
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 352
+    },
+    {
+      "base_pair": "C",
+      "count": 5
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 284
+    },
+    {
+      "base_pair": "A",
+      "count": 73
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 347
+    },
+    {
+      "base_pair": "A",
+      "count": 10
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 354
+    },
+    {
+      "base_pair": "T",
+      "count": 3
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 275
+    },
+    {
+      "base_pair": "T",
+      "count": 81
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 352
+    },
+    {
+      "base_pair": "A",
+      "count": 4
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 269
+    },
+    {
+      "base_pair": "C",
+      "count": 87
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 350
+    },
+    {
+      "base_pair": "T",
+      "count": 7
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 355
+    },
+    {
+      "base_pair": "A",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 355
+    },
+    {
+      "base_pair": "A",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 355
+    },
+    {
+      "base_pair": "T",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 347
+    },
+    {
+      "base_pair": "A",
+      "count": 9
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 350
+    },
+    {
+      "base_pair": "T",
+      "count": 6
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 354
+    },
+    {
+      "base_pair": "G",
+      "count": 3
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 344
+    },
+    {
+      "base_pair": "A",
+      "count": 12
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 354
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 354
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 355
+    },
+    {
+      "base_pair": "A",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 352
+    },
+    {
+      "base_pair": "A",
+      "count": 4
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 355
+    },
+    {
+      "base_pair": "G",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 355
+    },
+    {
+      "base_pair": "G",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 350
+    },
+    {
+      "base_pair": "G",
+      "count": 4
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 355
+    },
+    {
+      "base_pair": "G",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 352
+    },
+    {
+      "base_pair": "A",
+      "count": 5
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 355
+    },
+    {
+      "base_pair": "G",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 355
+    },
+    {
+      "base_pair": "A",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 354
+    },
+    {
+      "base_pair": "A",
+      "count": 3
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 339
+    },
+    {
+      "base_pair": "A",
+      "count": 17
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 342
+    },
+    {
+      "base_pair": "A",
+      "count": 14
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 353
+    },
+    {
+      "base_pair": "G",
+      "count": 4
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 348
+    },
+    {
+      "base_pair": "A",
+      "count": 9
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 322
+    },
+    {
+      "base_pair": "C",
+      "count": 34
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 257
+    },
+    {
+      "base_pair": "T",
+      "count": 98
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 354
+    },
+    {
+      "base_pair": "G",
+      "count": 3
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 348
+    },
+    {
+      "base_pair": "C",
+      "count": 9
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 351
+    },
+    {
+      "base_pair": "T",
+      "count": 6
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 280
+    },
+    {
+      "base_pair": "A",
+      "count": 77
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 355
+    },
+    {
+      "base_pair": "T",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 354
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 355
+    },
+    {
+      "base_pair": "G",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 224
+    },
+    {
+      "base_pair": "G",
+      "count": 133
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 353
+    },
+    {
+      "base_pair": "G",
+      "count": 3
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 352
+    },
+    {
+      "base_pair": "A",
+      "count": 5
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 352
+    },
+    {
+      "base_pair": "C",
+      "count": 4
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 355
+    },
+    {
+      "base_pair": "G",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 355
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 354
+    },
+    {
+      "base_pair": "C",
+      "count": 3
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 352
+    },
+    {
+      "base_pair": "G",
+      "count": 3
+    },
+    {
+      "base_pair": "T",
+      "count": 2
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 354
+    },
+    {
+      "base_pair": "C",
+      "count": 3
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 343
+    },
+    {
+      "base_pair": "C",
+      "count": 13
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 351
+    },
+    {
+      "base_pair": "A",
+      "count": 6
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 351
+    },
+    {
+      "base_pair": "T",
+      "count": 6
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 350
+    },
+    {
+      "base_pair": "C",
+      "count": 7
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 356
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 355
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 344
+    },
+    {
+      "base_pair": "C",
+      "count": 13
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 343
+    },
+    {
+      "base_pair": "A",
+      "count": 13
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 350
+    },
+    {
+      "base_pair": "G",
+      "count": 7
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 351
+    },
+    {
+      "base_pair": "G",
+      "count": 6
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 351
+    },
+    {
+      "base_pair": "A",
+      "count": 5
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 354
+    },
+    {
+      "base_pair": "T",
+      "count": 2
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 355
+    },
+    {
+      "base_pair": "A",
+      "count": 1
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 354
+    },
+    {
+      "base_pair": "T",
+      "count": 2
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 283
+    },
+    {
+      "base_pair": "G",
+      "count": 73
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "C",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "A",
+      "count": 356
+    },
+    {
+      "base_pair": "T",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ],
+  [
+    {
+      "base_pair": "G",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "C",
+      "count": 357
+    }
+  ],
+  [
+    {
+      "base_pair": "T",
+      "count": 356
+    },
+    {
+      "base_pair": "G",
+      "count": 1
+    }
+  ]
 ]

@@ -4,7 +4,7 @@ from fitness import calculate_fitness
 from uuid import uuid4
 
 
-AMINO_ACIDS = "ACDEFGHIKLMNPQRSTVWY"
+BASE_PAIRS = "ACGT"
 MUTABILITY = json.load(open("data/json/mutability.json"))
 
 
@@ -21,15 +21,15 @@ class Protein:
         return f"{self.name}: {self.sequence}"
 
     def __len__(self):
-        return len(self.sequence)
+        return len(self.dna)
 
     def mutate_sequence(self):
         # Select a random amino acid in the sequence.
-        index = random.randint(0, len(self.sequence) - 1)
-        sequence = list(self.sequence)
+        index = random.randint(0, len(self.dna) - 1)
+        dna = list(self.dna)
         # Change the amino acid.
-        sequence[index] = random.choice(AMINO_ACIDS)
-        self.sequence = "".join(sequence)
+        dna[index] = random.choice(BASE_PAIRS)
+        self.dna = "".join(dna)
         # Update the fitness.
         self.fitness = calculate_fitness(self, MUTABILITY)
 
