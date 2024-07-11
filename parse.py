@@ -12,9 +12,10 @@ def parse_proteins(input_file):
     # Create Protein objects.
     proteins = []
     for protein in data:
-        new_protein = Protein(protein["name"], protein["dna"], protein["sequence"])
-        new_protein.location = protein["location"]
-        proteins.append(new_protein)
+        if len(protein["dna"]) == 774:
+            new_protein = Protein(protein["name"], protein["dna"], protein["sequence"])
+            new_protein.location = protein["location"]
+            proteins.append(new_protein)
 
     return proteins
 

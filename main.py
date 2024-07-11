@@ -15,7 +15,7 @@ def main():
                 # Remove other_protein from the list.
                 initial_population.remove(other_protein)
 
-    for _ in range(100000):
+    for _ in range(10000):
         for protein in initial_population:
             protein.mutate()
 

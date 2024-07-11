@@ -49,7 +49,7 @@ class Protein:
 
     def mutate(self):
         random_node = self.select_random_node()
-        duplicate = Protein(str(uuid4()), random_node.sequence)
+        duplicate = Protein(str(uuid4()), random_node.dna, random_node.sequence)
         duplicate.mutate_dna()
         if (duplicate.fitness > random_node.fitness) and (
             duplicate.sequence
