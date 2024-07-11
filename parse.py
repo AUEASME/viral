@@ -64,7 +64,8 @@ def determine_mutability(proteins):
             amino_acid = protein.sequence[i]
             # Check if an object for this amino acid already exists.
             amino_acid_obj = next(
-                (x for x in amino_acids if x["amino_acid"] == amino_acid), None)
+                (x for x in amino_acids if x["amino_acid"] == amino_acid), None
+            )
             if amino_acid_obj:
                 amino_acid_obj["count"] += 1
             else:
@@ -89,8 +90,18 @@ def add_locations(proteins):
                     protein.location = location["location"]
 
     with open("data/json/sequences.json", "w+") as file:
-        json.dump([{"name": protein.name, "sequence": protein.sequence,
-                  "location": protein.location} for protein in proteins], file, indent=2)
+        json.dump(
+            [
+                {
+                    "name": protein.name,
+                    "sequence": protein.sequence,
+                    "location": protein.location,
+                }
+                for protein in proteins
+            ],
+            file,
+            indent=2,
+        )
 
 
 def add_alabamas(proteins):
@@ -99,8 +110,18 @@ def add_alabamas(proteins):
             protein.location = "Alabama"
 
     with open("data/json/sequences.json", "w+") as file:
-        json.dump([{"name": protein.name, "sequence": protein.sequence,
-                  "location": protein.location} for protein in proteins], file, indent=2)
+        json.dump(
+            [
+                {
+                    "name": protein.name,
+                    "sequence": protein.sequence,
+                    "location": protein.location,
+                }
+                for protein in proteins
+            ],
+            file,
+            indent=2,
+        )
 
 
 if __name__ == "__main__":
