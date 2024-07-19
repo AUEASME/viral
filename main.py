@@ -16,7 +16,7 @@ MUTABILITY = determine_mutability(PROTEINS)
 MAX_POPULATION_SIZE = 100
 MU_NUM_PARENTS = 10
 LAMBDA_NUM_CHILDREN = 10
-NUM_GENERATIONS = 100
+NUM_GENERATIONS = 10000
 
 
 def main():
@@ -47,7 +47,7 @@ def main():
         parents = fitness_proportionate_selection(living_population, MU_NUM_PARENTS)
 
         # Generate offspring.
-        for j in range(LAMBDA_NUM_CHILDREN):
+        for _ in range(LAMBDA_NUM_CHILDREN):
             # Select two random (unique) parents.
             parents = random.sample(parents, 2)
             child = parents[0].reproduce(parents[1], MUTABILITY)
@@ -55,7 +55,22 @@ def main():
                 print(
                     f"Generated child GEN{i+1}SER{child.serial_number} with fitness {child.fitness}."
                 )
-                child.mutate(MUTABILITY)
+                # Generate amino acid sequence of new child.
+                child.transcribe()
+                child.translate()
+
+                # Check if child has a unique amino acid sequence.
+                if (parents[0].amino_acid_sequence != child.amino_acid_sequence) and (
+                    parents[1].amino_acid_sequence != child.amino_acid_sequence
+                ):
+                    print(f"Child has a unique amino acid sequence. Keeping…")
+                    # Mutate child.
+                    child.mutate(MUTABILITY)
+                else:
+                    # If child has a duplicate amino acid sequence, discard it.
+                    print(f"Child has a duplicate amino acid sequence. Discarding…")
+                    parents[0].descendants.remove(child)
+                    parents[1].descendants.remove(child)
 
         # Select survivors.
         living_population_with_new_children = get_living_population(population)
