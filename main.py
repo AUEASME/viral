@@ -75,7 +75,7 @@ def main():
 
     # Run evolutionary algorithm.
     for i in range(NUM_GENERATIONS):
-        print(f"== COMMENCING GENERATION {i+1} ==")
+        print(f"== GENERATION {i+1} ==")
 
         # Get living population as a flat list.
         living_population = get_living_population(population)
