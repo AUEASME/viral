@@ -19,7 +19,7 @@ LAMBDA_NUM_CHILDREN = 10
 NUM_GENERATIONS = 10000
 
 
-def create_unique_child(generation, parents, MUTABILITY):
+def create_unique_child(generation, parents, mutability):
     # Select two random (unique) parents.
     parents = random.sample(parents, 2)
 
@@ -31,7 +31,7 @@ def create_unique_child(generation, parents, MUTABILITY):
             unique_amino_acid_sequences.add(descendant.amino_acid_sequence)
 
     # Generate child.
-    child = parents[0].reproduce(parents[1], MUTABILITY)
+    child = parents[0].reproduce(parents[1], mutability)
     if child:
         print(
             f"Generated child GEN{generation+1}SER{child.serial_number} with fitness {child.fitness}."
@@ -48,7 +48,7 @@ def create_unique_child(generation, parents, MUTABILITY):
         ):
             print(f"Child has a unique amino acid sequence. Keeping…")
             # Mutate child.
-            child.mutate(MUTABILITY)
+            child.mutate(mutability)
         else:
             # If child has a duplicate amino acid sequence, discard it.
             print(f"Child has a duplicate amino acid sequence. Discarding…")
