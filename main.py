@@ -19,6 +19,43 @@ LAMBDA_NUM_CHILDREN = 10
 NUM_GENERATIONS = 10000
 
 
+def create_unique_child(generation, parents, MUTABILITY):
+    # Select two random (unique) parents.
+    parents = random.sample(parents, 2)
+
+    # Get all unique amino acid sequences in descendants of both parents.
+    # (BEFORE generating child.)
+    unique_amino_acid_sequences = set()
+    for parent in [parents[0], parents[1]]:
+        for descendant in parent.descendants:
+            unique_amino_acid_sequences.add(descendant.amino_acid_sequence)
+
+    # Generate child.
+    child = parents[0].reproduce(parents[1], MUTABILITY)
+    if child:
+        print(
+            f"Generated child GEN{generation+1}SER{child.serial_number} with fitness {child.fitness}."
+        )
+        # Generate amino acid sequence of new child.
+        child.transcribe()
+        child.translate()
+
+        # Check if child has a unique amino acid sequence.
+        if (
+            (parents[0].amino_acid_sequence != child.amino_acid_sequence)
+            and (parents[1].amino_acid_sequence != child.amino_acid_sequence)
+            and (child.amino_acid_sequence not in unique_amino_acid_sequences)
+        ):
+            print(f"Child has a unique amino acid sequence. Keeping…")
+            # Mutate child.
+            child.mutate(MUTABILITY)
+        else:
+            # If child has a duplicate amino acid sequence, discard it.
+            print(f"Child has a duplicate amino acid sequence. Discarding…")
+            parents[0].descendants.remove(child)
+            parents[1].descendants.remove(child)
+
+
 def main():
     # Initialize population.
     population = []
@@ -48,29 +85,7 @@ def main():
 
         # Generate offspring.
         for _ in range(LAMBDA_NUM_CHILDREN):
-            # Select two random (unique) parents.
-            parents = random.sample(parents, 2)
-            child = parents[0].reproduce(parents[1], MUTABILITY)
-            if child:
-                print(
-                    f"Generated child GEN{i+1}SER{child.serial_number} with fitness {child.fitness}."
-                )
-                # Generate amino acid sequence of new child.
-                child.transcribe()
-                child.translate()
-
-                # Check if child has a unique amino acid sequence.
-                if (parents[0].amino_acid_sequence != child.amino_acid_sequence) and (
-                    parents[1].amino_acid_sequence != child.amino_acid_sequence
-                ):
-                    print(f"Child has a unique amino acid sequence. Keeping…")
-                    # Mutate child.
-                    child.mutate(MUTABILITY)
-                else:
-                    # If child has a duplicate amino acid sequence, discard it.
-                    print(f"Child has a duplicate amino acid sequence. Discarding…")
-                    parents[0].descendants.remove(child)
-                    parents[1].descendants.remove(child)
+            create_unique_child(i, parents, MUTABILITY)
 
         # Select survivors.
         living_population_with_new_children = get_living_population(population)
