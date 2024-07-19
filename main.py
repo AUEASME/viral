@@ -16,7 +16,7 @@ MUTABILITY = determine_mutability(PROTEINS)
 MAX_POPULATION_SIZE = 100
 MU_NUM_PARENTS = 10
 LAMBDA_NUM_CHILDREN = 10
-NUM_GENERATIONS = 10000
+NUM_GENERATIONS = 100000
 
 
 def create_unique_child(generation, parents, mutability):
