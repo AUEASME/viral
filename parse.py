@@ -241,13 +241,17 @@ def add_dates(path: str, dates: list) -> None:
     proteins = []
 
     with open(path, "r") as file:
-        data = json.load(file)
+        proteins = json.load(file)
 
-    for protein in data:
+    for protein in proteins:
         # Check if protein is in the value of any of the dates.
         for date in dates:
-            if protein["id"] in date["proteins"]:
+            if protein["name"] in date["proteins"]:
                 protein["date"] = date["date"]
 
     with open(path, "w") as file:
         json.dump(proteins, file, indent=2)
+
+
+if __name__ == "__main__":
+    add_dates("data/json/sequences.json", DATES)
