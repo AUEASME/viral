@@ -19,6 +19,44 @@ LAMBDA_NUM_CHILDREN = 10
 NUM_GENERATIONS = 100000
 
 
+class Position:
+    def __init__(self, position):
+        self.position = position
+        self.amino_acids = []
+
+
+def find_conserved_subsequences(proteins):
+    unique_amino_acids_at_position = []
+    for i in range(len(proteins[0].amino_acid_sequence)):
+        position = Position(i)
+        for protein in proteins:
+            if protein.amino_acid_sequence[i] not in position.amino_acids:
+                position.amino_acids.append(protein.amino_acid_sequence[i])
+        unique_amino_acids_at_position.append(position)
+
+    # Remove all cases where len(position.amino_acids) > 1.
+    unique_amino_acids_at_position = [
+        position
+        for position in unique_amino_acids_at_position
+        if len(position.amino_acids) == 1
+    ]
+
+    return unique_amino_acids_at_position
+
+
+CONSERVED_SUBSEQUENCES = find_conserved_subsequences(PROTEINS)
+
+
+def test_for_conserved_subsequences(protein):
+    # Check if the amino acid sequence of this protein violates any conserved subsequences.
+    for position in CONSERVED_SUBSEQUENCES:
+        if protein.amino_acid_sequence[position.position] not in position.amino_acids:
+            protein.fitness = 0.0
+            return False
+
+    return True
+
+
 def create_unique_child(generation, parents, mutability):
     # Select two random (unique) parents.
     parents = random.sample(parents, 2)
@@ -39,6 +77,8 @@ def create_unique_child(generation, parents, mutability):
         # Generate amino acid sequence of new child.
         child.transcribe()
         child.translate()
+        test_for_conserved_subsequences(child)
+        
 
         # Check if child has a unique amino acid sequence.
         if (
