@@ -1,4 +1,4 @@
-import random
+import tensorflow as tf
 from easme.parse import parse_proteins, determine_mutability
 from easme.fitness import calculate_fitness_from_consensus
 from easme.selection import (
@@ -17,6 +17,10 @@ MAX_POPULATION_SIZE = 100
 MU_NUM_PARENTS = 10
 LAMBDA_NUM_CHILDREN = 10
 NUM_GENERATIONS = 100000
+
+# Load spam filter models.
+VALIDITY_MODEL = tf.keras.models.load_model("dat/models/validity.keras")
+AGGREGATION_MODEL = tf.keras.models.load_model("dat/models/agg.keras")
 
 
 class Position:
@@ -57,43 +61,10 @@ def test_for_conserved_subsequences(protein):
     return True
 
 
-def create_unique_child(generation, parents, mutability):
-    # Select two random (unique) parents.
-    parents = random.sample(parents, 2)
-
-    # Get all unique amino acid sequences in descendants of both parents.
-    # (BEFORE generating child.)
-    unique_amino_acid_sequences = set()
-    for parent in [parents[0], parents[1]]:
-        for descendant in parent.descendants:
-            unique_amino_acid_sequences.add(descendant.amino_acid_sequence)
-
-    # Generate child.
-    child = parents[0].reproduce(parents[1], mutability)
-    if child:
-        print(
-            f"Generated child GEN{generation+1}SER{child.serial_number} with fitness {child.fitness}."
-        )
-        # Generate amino acid sequence of new child.
-        child.transcribe()
-        child.translate()
-        test_for_conserved_subsequences(child)
-        
-
-        # Check if child has a unique amino acid sequence.
-        if (
-            (parents[0].amino_acid_sequence != child.amino_acid_sequence)
-            and (parents[1].amino_acid_sequence != child.amino_acid_sequence)
-            and (child.amino_acid_sequence not in unique_amino_acid_sequences)
-        ):
-            print(f"Child has a unique amino acid sequence. Keeping…")
-            # Mutate child.
-            child.mutate(mutability)
-        else:
-            # If child has a duplicate amino acid sequence, discard it.
-            print(f"Child has a duplicate amino acid sequence. Discarding…")
-            parents[0].descendants.remove(child)
-            parents[1].descendants.remove(child)
+def calculate_fitness_from_spam_filter(protein):
+    validity_score = VALIDITY_MODEL.predict(protein.amino_acid_sequence)
+    aggregation_score = AGGREGATION_MODEL.predict(protein.amino_acid_sequence)
+    return validity_score * aggregation_score
 
 
 def main():
@@ -125,7 +96,7 @@ def main():
 
         # Generate offspring.
         for _ in range(LAMBDA_NUM_CHILDREN):
-            create_unique_child(i, parents, MUTABILITY)
+            parents[0].reproduce(parents[1])
 
         # Select survivors.
         living_population_with_new_children = get_living_population(population)
