@@ -1,20 +1,18 @@
+import json
 import tensorflow as tf
 from easme.parse import parse_proteins, determine_mutability
-from easme.fitness import calculate_fitness_from_consensus
 from easme.selection import (
-    get_living_population,
-    prune,
     fitness_proportionate_selection,
     truncation,
 )
 
 # Import protein data.
-PROTEINS = parse_proteins("data/json/sequences.json", 774)
+PROTEINS = parse_proteins("dat/json/sequences.json", 774)
 MUTABILITY = determine_mutability(PROTEINS)
 
 # Set evolutionary algorithm parameters.
 MAX_POPULATION_SIZE = 100
-MU_NUM_PARENTS = 10
+MU_NUM_PARENTS = 2
 LAMBDA_NUM_CHILDREN = 10
 NUM_GENERATIONS = 100000
 
@@ -62,8 +60,11 @@ def test_for_conserved_subsequences(protein):
 
 
 def calculate_fitness_from_spam_filter(protein):
-    validity_score = VALIDITY_MODEL.predict(protein.amino_acid_sequence)
-    aggregation_score = AGGREGATION_MODEL.predict(protein.amino_acid_sequence)
+    if not test_for_conserved_subsequences(protein):
+        return 0.0
+
+    validity_score = VALIDITY_MODEL.predict(protein.hydro_list)[0][0]
+    aggregation_score = AGGREGATION_MODEL.predict(protein.hydro_list)[0][0]
     return validity_score * aggregation_score
 
 
@@ -71,7 +72,7 @@ def main():
     # Initialize population.
     population = []
     for protein in PROTEINS:
-        if protein.location_of_origin == "Alabama":
+        if protein.date_of_discovery:
             population.append(protein)
 
     # Remove duplicates.
@@ -82,30 +83,38 @@ def main():
 
     # Calculate fitness.
     for protein in population:
-        protein.fitness = calculate_fitness_from_consensus(protein, MUTABILITY)
+        protein.fitness = calculate_fitness_from_spam_filter(protein)
 
     # Run evolutionary algorithm.
+    max_fitness = 0.0
     for i in range(NUM_GENERATIONS):
         print(f"== GENERATION {i+1} ==")
 
-        # Get living population as a flat list.
-        living_population = get_living_population(population)
-
-        # Select parents.
-        parents = fitness_proportionate_selection(living_population, MU_NUM_PARENTS)
-
         # Generate offspring.
         for _ in range(LAMBDA_NUM_CHILDREN):
-            parents[0].reproduce(parents[1])
+            # Choose parents.
+            parents = fitness_proportionate_selection(population, MU_NUM_PARENTS)
+            # Crossover.
+            child = parents[0].reproduce(parents[1])
+            # Mutate.
+            child.mutate()
+            # Test fitness.
+            child.fitness = calculate_fitness_from_spam_filter(child)
+            # Add child to population.
+            population.append(child)
 
         # Select survivors.
-        living_population_with_new_children = get_living_population(population)
-        survivors = truncation(living_population_with_new_children, MAX_POPULATION_SIZE)
-        population = prune(population, survivors)
+        population = truncation(population, MAX_POPULATION_SIZE)
+        max_fitness = max([protein.fitness for protein in population])
+        print(f"Max fitness: {max_fitness}")
+        output = f"dat/out2/gen_{i+1}.json"
+        json_output = [protein.dump_to_json() for protein in population]
+        with open(output, "w+") as file:
+            json.dump(json_output, file, indent=2)
 
     # Save population to JSON.
     for protein in population:
-        protein.save_to_json(f"data/out/{protein.name}.json")
+        protein.save_to_json(f"dat/out2/{protein.name}.json")
 
 
 if __name__ == "__main__":
