@@ -16,7 +16,7 @@ MUTABILITY = determine_mutability(PROTEINS)
 MAX_POPULATION_SIZE = 100
 MU_NUM_PARENTS = 2
 LAMBDA_NUM_CHILDREN = 10
-NUM_GENERATIONS = 2500
+NUM_GENERATIONS = 25000
 NOW = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
 
 # Load spam filter models.
