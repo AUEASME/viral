@@ -1,4 +1,6 @@
+import datetime
 import json
+import os
 import tensorflow as tf
 from easme.parse import parse_proteins, determine_mutability
 from easme.selection import (
@@ -14,7 +16,8 @@ MUTABILITY = determine_mutability(PROTEINS)
 MAX_POPULATION_SIZE = 100
 MU_NUM_PARENTS = 2
 LAMBDA_NUM_CHILDREN = 10
-NUM_GENERATIONS = 100000
+NUM_GENERATIONS = 2500
+NOW = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
 
 # Load spam filter models.
 VALIDITY_MODEL = tf.keras.models.load_model("dat/models/validity.keras")
@@ -50,29 +53,37 @@ CONSERVED_SUBSEQUENCES = find_conserved_subsequences(PROTEINS)
 
 
 def test_for_conserved_subsequences(protein):
+    conservation_successes = 0
+
     # Check if the amino acid sequence of this protein violates any conserved subsequences.
     for position in CONSERVED_SUBSEQUENCES:
-        if protein.amino_acid_sequence[position.position] not in position.amino_acids:
-            protein.fitness = 0.0
-            return False
+        if len(protein.amino_acid_sequence) <= position.position:
+            break
+        if protein.amino_acid_sequence[position.position] in position.amino_acids:
+            conservation_successes += 1
 
-    return True
+    # return conservation_successes / len(CONSERVED_SUBSEQUENCES)
+    return conservation_successes == len(CONSERVED_SUBSEQUENCES)
 
 
 def calculate_fitness_from_spam_filter(protein):
-    if not test_for_conserved_subsequences(protein):
-        return 0.0
-
+    conservation_score = test_for_conserved_subsequences(protein)
     validity_score = VALIDITY_MODEL.predict(protein.hydro_list)[0][0]
     aggregation_score = AGGREGATION_MODEL.predict(protein.hydro_list)[0][0]
-    return validity_score * aggregation_score
+    return validity_score * aggregation_score * conservation_score
 
 
 def main():
+    # Create a folder in dat for the output.
+    os.makedirs(f"dat/out/{NOW}", exist_ok=True)
+
     # Initialize population.
     population = []
     for protein in PROTEINS:
-        if protein.date_of_discovery:
+        if protein.date_of_discovery and (
+            protein.amino_acid_sequence
+            not in [p.amino_acid_sequence for p in population]
+        ):
             population.append(protein)
 
     # Remove duplicates.
@@ -92,12 +103,20 @@ def main():
 
         # Generate offspring.
         for _ in range(LAMBDA_NUM_CHILDREN):
-            # Choose parents.
-            parents = fitness_proportionate_selection(population, MU_NUM_PARENTS)
-            # Crossover.
-            child = parents[0].reproduce(parents[1])
-            # Mutate.
-            child.mutate()
+            child = None
+            unique_child = False
+            while not unique_child:
+                # Choose parents.
+                parents = fitness_proportionate_selection(population, MU_NUM_PARENTS)
+                # Crossover.
+                child = parents[0].reproduce(parents[1])
+                # Mutate.
+                child.mutate()
+                # Check if the child's amino acid sequence is unique.
+                all_amino_acid_sequences = [
+                    protein.amino_acid_sequence for protein in population
+                ]
+                unique_child = child.amino_acid_sequence not in all_amino_acid_sequences
             # Test fitness.
             child.fitness = calculate_fitness_from_spam_filter(child)
             # Add child to population.
@@ -107,14 +126,12 @@ def main():
         population = truncation(population, MAX_POPULATION_SIZE)
         max_fitness = max([protein.fitness for protein in population])
         print(f"Max fitness: {max_fitness}")
-        output = f"dat/out2/gen_{i+1}.json"
+
+        # Save population to JSON.
+        output = f"dat/out/{NOW}/gen_{i+1}.json"
         json_output = [protein.dump_to_json() for protein in population]
         with open(output, "w+") as file:
             json.dump(json_output, file, indent=2)
-
-    # Save population to JSON.
-    for protein in population:
-        protein.save_to_json(f"dat/out2/{protein.name}.json")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,1 @@
+Run where conserved sequence adherence was (functionally) strictly enforced (proteins that didn't conserve the sequences would automatically have a fitness of 0.0).

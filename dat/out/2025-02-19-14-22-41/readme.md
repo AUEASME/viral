@@ -1,0 +1,1 @@
+Run where conserved sequences are heavily weighted (missing half of them will half your fitness), but not strictly enforced.
