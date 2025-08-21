@@ -227,6 +227,33 @@ if __name__ == "__main__":
             )
         )
 
+    # Sort proteins by length of amino acid sequence.
+    start_proteins.sort(key=lambda x: len(x.amino_acid_sequence))
+
+    # Cut off the shortest proteins.
+    start_proteins = start_proteins[2:]
+
+    # Print the min and max lengths of the start proteins.
+    for protein in start_proteins:
+        print(f"Protein {protein.name} has length {len(protein.amino_acid_sequence)}.")
+
+    # Get the average mutation likelihoods for all start proteins.
+    mutation_likelihoods = []
+    for protein in start_proteins:
+        mutation_likelihoods.append(
+            determine_mutation_likelihoods(protein, start_proteins)
+        )
+    avg_mutation_likelihoods = [
+        sum(x) / len(mutation_likelihoods) for x in zip(*mutation_likelihoods)
+    ]
+
+    # Print the average mutation likelihoods.
+    print(f"Average mutation likelihoods: {avg_mutation_likelihoods}")
+
+    # Print the min and max mutation likelihoods.
+    print(f"Min mutation likelihood: {min(avg_mutation_likelihoods)}")
+    print(f"Max mutation likelihood: {max(avg_mutation_likelihoods)}")
+
     """
     # Calculate the mutation likelihoods for pmagenta based on the red fluorescent proteins.
     mutation_likelihoods = determine_mutation_likelihoods(pmagenta, FP_RED)
