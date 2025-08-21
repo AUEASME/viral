@@ -1,6 +1,6 @@
 # EASME TSWV Project
 
-This is a project by the EASME team to analyze and predict the evolution of the [tomato spotted wilt virus nucleoprotein](https://www.uniprot.org/uniprotkb/P25999/entry) in Alabama.
+This is a project by the EASME team to analyze and predict the evolution of the [tomato spotted wilt virus nucleocapsid protein](https://www.uniprot.org/uniprotkb/P25999/entry) [in Alabama](https://www.ncbi.nlm.nih.gov/nucleotide/PQ369628.1).
 
 Make sure you have the EASME core library installed in your Python `Lib` folder!
 
